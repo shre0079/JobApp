@@ -2,8 +2,8 @@
 <%@ taglib prefix="ab" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false"%>
 <%@ page import="java.util.List" %>
-<%@ page import="com.telusko.JobApp.model.JobPost" %>
-<%@ page import="com.telusko.JobApp.repo.JobRepo" %>
+<%@ page import="com.shre.JobApp.model.JobPost" %>
+<%@ page import="com.shre.JobApp.repo.JobRepo" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,7 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="viewalljobs">All Jobs</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://telusko.com/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/smish9//">Contact</a></li>
             </ul>
         </div>
     </div>

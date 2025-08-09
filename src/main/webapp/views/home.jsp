@@ -55,7 +55,7 @@ p {
 							Jobs</a></li>
 
 					<li class="nav-item"><a class="nav-link"
-						href="https://telusko.com/">Contact</a></li>
+						href="https://www.linkedin.com/in/smish9//">Contact</a></li>
 				</ul>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="com.telusko.JobApp.model.JobPost" %>
+<%@ page import="com.shre.JobApp.model.JobPost" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page isELIgnored="false" %>
 <!DOCTYPE html>
@@ -45,7 +45,7 @@
                     <a class="nav-link" href="viewalljobs">All Jobs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://telusko.com/">Contact</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/smish9//">Contact</a>
                 </li>
             </ul>
         </div>
