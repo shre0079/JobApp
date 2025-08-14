@@ -11,6 +11,7 @@ import java.util.List;
 public class JobService {
     @Autowired
     public JobRepo repo;
+
     //method to return all JobPosts
     public List<JobPost> returnAllJobPosts() {
         return repo.returnAllJobPosts();
