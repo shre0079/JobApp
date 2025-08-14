@@ -4,7 +4,7 @@ import com.shre.JobApp.model.JobPost;
 import com.shre.JobApp.repo.JobRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
