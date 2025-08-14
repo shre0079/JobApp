@@ -16,6 +16,7 @@ public class JobService {
     public List<JobPost> getAllJobs() {
         return repo.findAll();
     }
+
     // method to add a jobPost
     public void addJobPost(JobPost jobPost) {
         repo.addJobPost(jobPost);
