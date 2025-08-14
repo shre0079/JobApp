@@ -39,7 +39,13 @@ public class JobController {
     @PostMapping("/handleForm")
     public String handleAddJobForm(JobPost jobPost, Model model) {
         model.addAttribute("jobPost", jobPost);
-        service.addJobPost(jobPost);
+        service.addJob(jobPost);
+        return "success";
+    }
+
+    @GetMapping("/load")
+    public String loadData() {
+        service.load();
         return "success";
     }
 }
